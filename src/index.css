@@ -1,4 +1,5 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;  
+/* bring in normalize.css styles */  
 
 body {
   background-color: rgb(149, 177, 243);
@@ -15,9 +16,18 @@ code {
     monospace; 
 } 
 
+h1,
+h2,
+h3,
+h4,
 p {
   margin: 0;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+}  
 
 li {
   list-style: none;
